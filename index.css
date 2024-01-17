@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0a0a23;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /*font-size: 1rem;*/
+}
+
+.haupt-container {
+  width: 100%;
+  min-height: 100vh;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.freecodecamp-logo {
+  height: 30px;
+  width: 262.5px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 2.5rem;
+  padding: 10px 0px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  min-width: 450px;
+  min-height: 129.5px;
+  background-color: #ffffff;
+  margin: 10px 0px;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 6px 6px #002ead;
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+}
+
+label {
+  color: #0a0a23;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+}
+
+.inp-btn-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  width: 250px;
+  height: 30px;
+  background-color: #ffffff;
+  margin: 10px;
+  border: none;
+  border-bottom: 2px solid #5a01a7;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+button {
+  width: 90px;
+  color: #ffffff;
+  background-color: #5a01a7;
+  padding: 10px;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+#result {
+  color: #000000;
+  min-height: 50px;
+}
+
+.answer {
+  font-size: 1.4rem;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.palindrome-def-container {
+  max-width: 450px;
+  min-height: 144px;
+  color: #ffffff;
+  background-color: #00471b;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  font-size: 20.8px;
+}
+
+.palindrome-def {
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 450px) {
+  form {
+    min-width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .inp-btn-div {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 326px) {
+  form {
+    max-width: 100vw;
+  }
+}
+
+@media screen and (max-width: 249px) {
+  form {
+    position: relative;
+  }
+
+  .inp-btn-div {
+    max-width: 100%;
+  }
+}
