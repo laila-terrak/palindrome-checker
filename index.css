@@ -84,9 +84,10 @@ button {
 #result {
   color: #000000;
   min-height: 50px;
+  display: none;
 }
 
-.answer {
+#answer {
   font-size: 1.4rem;
   margin-top: 10px;
   text-align: center;
